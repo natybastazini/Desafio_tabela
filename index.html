@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dasafio Tabelas</title>
+     <style>
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        table, tr, th, td{
+            border: solid 2px rgb(255, 0, 119) ;
+            border-collapse: collapse;
+        }
+
+        th{
+            background-color: rgb(250, 223, 236);
+            color: rgb(255, 0, 119);
+        }
+        img{
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div>
+        <table >
+          <tr>
+            <th>Código</th>
+            <th>Categoria</th>
+            <th>Produto</th>
+            <th>Imagem</th>
+            <th>Preço</th>
+          </tr>
+          <!-- Criando linha da tabela que apresenta as informações do Blush -->
+          <tr>
+            <td>0000</td>
+            <td>Pele</td>
+            <td>Blush</td>
+            <td>
+                <img src="https://m.toofaced.com.br/media/export/cms/products/1000x1000/2f_sku_192897_1000x1000_0.jpg" alt="Blush" >
+            </td>
+            <td>R$259,00</td>
+          </tr>
+          <!-- Criando linha da tabela que apresenta as informações do Gloss -->
+          <tr>
+            <td>0001</td>
+            <td>Boca</td>
+            <td>Gloss</td>
+            <td>
+                <img src="https://www.toofaced.com.br/media/export/cms/products/1000x1000/2f_sku_179803_1000x1000_0.jpg" alt="Gloss" >
+            </td>
+            <td>R$143,00</td>
+          </tr>
+          <!-- Criando linha da tabela que apresenta as informações da Sombra -->
+          <tr>
+            <td>0003</td>
+            <td>Olhos</td>
+            <td>Paleta de Sombra</td>
+            <td>
+                <img src="https://www.toofaced.com.br/media/export/cms/products/1000x1000/2f_sku_200700_1000x1000_1.jpg" alt="Paleta de sombra" >
+            </td>
+            <td>R$194,00</td>
+          </tr>
+          <!-- Criando linha da tabela que apresenta as informações da Corretivo -->
+          <tr>
+            <td>0004</td>
+            <td>Pele</td>
+            <td>Corretivo</td>
+            <td>
+                <img src="https://www.toofaced.com.br/media/export/cms/products/1000x1000/2f_sku_156933_1000x1000_0.jpg" alt="Corretivo" >
+            </td>
+            <td>R$199,00</td>
+          </tr>
+          <!-- Criando linha da tabela que apresenta as informações da  -->
+          <tr>
+            <td>0005</td>
+            <td>Olhos</td>
+            <td>Máscara de Cílios</td>
+            <td>
+                <img src="https://www.toofaced.com.br/media/export/cms/products/1000x1000/2f_sku_94281_1000x1000_0.jpg" alt="Máscara de Cílios" >
+            </td>
+            <td>R$159,00</td>
+          </tr>
+          <!--  -->
+          <tr>
+            <td colspan="4">Total</td>
+            <td>R$755,00</td>
+          </tr>
+        </table>
+    </div>
+  </body>
+</html>
